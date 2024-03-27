@@ -1,0 +1,241 @@
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; /* Fondo blanco para la página */
+}
+
+.hList {
+  display: flex;
+  align-items: flex-start; /* Alinear elementos arriba */
+  list-style: none;
+  padding: 0;
+  margin-top: 0; /* Reducir margen superior */
+}
+
+.menu {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 10px; /* Ajustar margen superior */
+}
+
+.menu-title {
+  display: block;
+  width: 170px;
+  height: 40px;
+  padding: 8px 0;
+  background: green;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  line-height: 24px;
+}
+
+.menu:hover .menu-title {
+  background-color: #7fa436;
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 170px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu:hover .menu-dropdown {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-dropdown li {
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-dropdown li:hover {
+  background-color: gray;
+}
+
+.subequipo-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.subequipo-link:hover {
+  background-color: gray;
+}
+
+.Cabecera {
+  background-color: green; /* Rojo para representar la bandera de Chile */
+  color: white; /* Color del texto en el encabezado */
+  padding: 25px; /* Espaciado interno del encabezado */
+  width: 100%; /* Ancho al 100% del contenedor principal */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para el encabezado */
+  border: 1px solid #000000; /* Borde negro para el encabezado */
+  display: flex; /* Activar el modelo de caja flexible */
+  justify-content: center; /* Centrar horizontalmente los elementos hijos */
+  align-items: center; /* Centrar verticalmente los elementos hijos */
+}
+
+.Cabecera button {
+  margin: 0 10px; /* Añadir margen a los botones para separarlos */
+}
+
+.SubCabecera {
+  background-color: black; 
+  color: black; 
+  padding: 15px;
+  width: 100%; 
+  border: 1px solid #000000; 
+  position: relative;
+}
+
+.SubCabeceraInicio {
+  background-color: #0033a0; /* Azul para representar la bandera de Chile */
+  color: black; /* Color del texto en el contenedor de los subs */
+  padding: 15px; /* Espaciado interno del contenedor de los subs */
+  width: 100%; /* Ancho al 100% del contenedor principal */
+  border: 1px solid #000000; /* Borde negro para el contenedor de los subs */
+  position: relative;
+}
+
+.logoAndTitle {
+  display: flex;
+  align-items: center; /* Alinear verticalmente los elementos */
+  margin-top: -110px;
+}
+
+
+.grisCuadro {
+  background-color: #f0f0f0; /* Color gris */
+  padding: 30px; /* Espacio interior del cuadro */
+  border-radius: 20px; /* Bordes redondeados */
+  margin: 50px; /* Espacio exterior del cuadro */
+}
+
+.logo {
+  border: none;
+  padding: 0;
+  background: none;
+  width: 10%;
+}
+
+.logoButton img.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  margin: 0 auto;
+
+  width: 600px;
+  height: 430px;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
+@media (max-width: 768px) {
+
+  table {
+    display: block;
+  }
+
+  th, td {
+    display: block;
+  }
+
+  th {
+    width: 100%;
+  }
+
+  td {
+    margin-bottom: 10px;
+  }
+
+  .hList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    margin: 10px 0;
+  }
+
+  .menu-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu:hover .menu-dropdown {
+    display: block;
+  }
+
+  .subequipo-link {
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+}
