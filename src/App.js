@@ -12,55 +12,55 @@ import TableRow                                                       from '@mui
 import Paper                                                          from '@mui/material/Paper';
 //Paginas
 import "./styles.css";
-// import logo1                                                          from './imagenes/logo.png';
-// //Senior
-// //Equipo
-// import EquipoSenior1                                                  from './Pages/Senior/Equipos/equipo1.jsx';
-// import EquipoSenior2                                                  from './Pages/Senior/Equipos/equipo2.jsx';
-// import EquipoSenior3                                                  from './Pages/Senior/Equipos/equipo3.jsx';
-// import EquipoSenior4                                                  from './Pages/Senior/Equipos/equipo4.jsx';
-// import EquipoSenior5                                                  from './Pages/Senior/Equipos/equipo5.jsx';
-// import EquipoSenior6                                                  from './Pages/Senior/Equipos/equipo6.jsx';
-// import EquipoSenior7                                                  from './Pages/Senior/Equipos/equipo7.jsx';
-// import EquipoSenior8                                                  from './Pages/Senior/Equipos/equipo8.jsx';
-// //Partidos
-// import FechaSenior1                                                   from './Pages/Senior/Partidos/fecha1.jsx';
-// import FechaSenior2                                                   from './Pages/Senior/Partidos/fecha2.jsx';
-// import FechaSenior3                                                   from './Pages/Senior/Partidos/fecha3.jsx';
-// import FechaSenior4                                                   from './Pages/Senior/Partidos/fecha4.jsx';
-// //Estadisticas
-// import PosicionesSenior                                               from './Pages/Senior/Estadisticas/posiciones.jsx'
-// import GoleadoresSenior                                               from './Pages/Senior/Estadisticas/goleadores.jsx'
-// import JuegoLimpioSenior                                              from './Pages/Senior/Estadisticas/juegoLimpio.jsx'
-// import JugadoresExpulsadosSenior                                      from './Pages/Senior/Estadisticas/jugadorExpulsado.jsx'
-// import VallaSenior                                                    from './Pages/Senior/Estadisticas/vallaMenosBatida.jsx'
-// //Galeria
-// import ImagenesSenior                                                 from './Pages/Senior/Galeria/imagenes.jsx'
+import logo1                                                          from './imagenes/logo.png';
+//Senior
+//Equipo
+import EquipoSenior1                                                  from './Pages/Senior/Equipos/equipo1.jsx';
+import EquipoSenior2                                                  from './Pages/Senior/Equipos/equipo2.jsx';
+import EquipoSenior3                                                  from './Pages/Senior/Equipos/equipo3.jsx';
+import EquipoSenior4                                                  from './Pages/Senior/Equipos/equipo4.jsx';
+import EquipoSenior5                                                  from './Pages/Senior/Equipos/equipo5.jsx';
+import EquipoSenior6                                                  from './Pages/Senior/Equipos/equipo6.jsx';
+import EquipoSenior7                                                  from './Pages/Senior/Equipos/equipo7.jsx';
+import EquipoSenior8                                                  from './Pages/Senior/Equipos/equipo8.jsx';
+//Partidos
+import FechaSenior1                                                   from './Pages/Senior/Partidos/fecha1.jsx';
+import FechaSenior2                                                   from './Pages/Senior/Partidos/fecha2.jsx';
+import FechaSenior3                                                   from './Pages/Senior/Partidos/fecha3.jsx';
+import FechaSenior4                                                   from './Pages/Senior/Partidos/fecha4.jsx';
+//Estadisticas
+import PosicionesSenior                                               from './Pages/Senior/Estadisticas/posiciones.jsx'
+import GoleadoresSenior                                               from './Pages/Senior/Estadisticas/goleadores.jsx'
+import JuegoLimpioSenior                                              from './Pages/Senior/Estadisticas/juegoLimpio.jsx'
+import JugadoresExpulsadosSenior                                      from './Pages/Senior/Estadisticas/jugadorExpulsado.jsx'
+import VallaSenior                                                    from './Pages/Senior/Estadisticas/vallaMenosBatida.jsx'
+//Galeria
+import ImagenesSenior                                                 from './Pages/Senior/Galeria/imagenes.jsx'
 
-// // SuperSenior
-// //Equipo
-// import EquipoSuperSenior1                                             from './Pages/SuperSenior/Equipos/equipo1.jsx';
-// import EquipoSuperSenior2                                             from './Pages/SuperSenior/Equipos/equipo2.jsx';
-// import EquipoSuperSenior3                                             from './Pages/SuperSenior/Equipos/equipo3.jsx';
-// import EquipoSuperSenior4                                             from './Pages/SuperSenior/Equipos/equipo4.jsx';
-// import EquipoSuperSenior5                                             from './Pages/SuperSenior/Equipos/equipo5.jsx';
-// import EquipoSuperSenior6                                             from './Pages/SuperSenior/Equipos/equipo6.jsx';
-// import EquipoSuperSenior7                                             from './Pages/SuperSenior/Equipos/equipo7.jsx';
-// import EquipoSuperSenior8                                             from './Pages/SuperSenior/Equipos/equipo8.jsx';
-// //Partidos
-// import FechaSuperSenior1                                              from './Pages/SuperSenior/Partidos/fecha1.jsx';
-// import FechaSuperSenior2                                              from './Pages/SuperSenior/Partidos/fecha2.jsx';
-// import FechaSuperSenior3                                              from './Pages/SuperSenior/Partidos/fecha3.jsx';
-// import FechaSuperSenior4                                              from './Pages/SuperSenior/Partidos/fecha4.jsx';
-// //Estadisticas
-// import PosicionesSuperSenior                                          from './Pages/SuperSenior/Estadisticas/posiciones.jsx'
-// import GoleadoresSuperSenior                                          from './Pages/SuperSenior/Estadisticas/goleadores.jsx'
-// import JuegoLimpioSuperSenior                                         from './Pages/SuperSenior/Estadisticas/juegoLimpio.jsx'
-// import JugadoresExpulsadosSuperSenior                                 from './Pages/SuperSenior/Estadisticas/jugadorExpulsado.jsx'
-// import VallaSuperSenior                                               from './Pages/SuperSenior/Estadisticas/vallaMenosBatida.jsx'
+// SuperSenior
+//Equipo
+import EquipoSuperSenior1                                             from './Pages/SuperSenior/Equipos/equipo1.jsx';
+import EquipoSuperSenior2                                             from './Pages/SuperSenior/Equipos/equipo2.jsx';
+import EquipoSuperSenior3                                             from './Pages/SuperSenior/Equipos/equipo3.jsx';
+import EquipoSuperSenior4                                             from './Pages/SuperSenior/Equipos/equipo4.jsx';
+import EquipoSuperSenior5                                             from './Pages/SuperSenior/Equipos/equipo5.jsx';
+import EquipoSuperSenior6                                             from './Pages/SuperSenior/Equipos/equipo6.jsx';
+import EquipoSuperSenior7                                             from './Pages/SuperSenior/Equipos/equipo7.jsx';
+import EquipoSuperSenior8                                             from './Pages/SuperSenior/Equipos/equipo8.jsx';
+//Partidos
+import FechaSuperSenior1                                              from './Pages/SuperSenior/Partidos/fecha1.jsx';
+import FechaSuperSenior2                                              from './Pages/SuperSenior/Partidos/fecha2.jsx';
+import FechaSuperSenior3                                              from './Pages/SuperSenior/Partidos/fecha3.jsx';
+import FechaSuperSenior4                                              from './Pages/SuperSenior/Partidos/fecha4.jsx';
+//Estadisticas
+import PosicionesSuperSenior                                          from './Pages/SuperSenior/Estadisticas/posiciones.jsx'
+import GoleadoresSuperSenior                                          from './Pages/SuperSenior/Estadisticas/goleadores.jsx'
+import JuegoLimpioSuperSenior                                         from './Pages/SuperSenior/Estadisticas/juegoLimpio.jsx'
+import JugadoresExpulsadosSuperSenior                                 from './Pages/SuperSenior/Estadisticas/jugadorExpulsado.jsx'
+import VallaSuperSenior                                               from './Pages/SuperSenior/Estadisticas/vallaMenosBatida.jsx'
 
-// //Galeria
-// import ImagenesSuperSenior                                            from './Pages/SuperSenior/Galeria/imagenes.jsx'
+//Galeria
+import ImagenesSuperSenior                                            from './Pages/SuperSenior/Galeria/imagenes.jsx'
 
 export default function App() {
 
@@ -332,7 +332,7 @@ export default function App() {
               </Grid>
                 <Grid>
                   <div className="logoAndTitle">
-                    {/* <img className="logo" src={logo1} alt="Logotipo de su empresa" /> */}
+                    <img className="logo" src={logo1} alt="Logotipo de su empresa" />
                   </div>
                 </Grid>
             </Grid>
@@ -375,7 +375,7 @@ export default function App() {
               </Grid>
               <Grid>
                 <div className="logoAndTitle">
-                  {/* <img className="logo" src={logo1} alt="Logotipo de su empresa" /> */}
+                  <img className="logo" src={logo1} alt="Logotipo de su empresa" />
                 </div>
               </Grid>
             </Grid>
@@ -418,7 +418,7 @@ export default function App() {
       {mostrarPaginas && (
       <Routes>
         {/* Senior */}
-        {/* <Route path="/equipoSenior1" element={<EquipoSenior1 />} />
+        <Route path="/equipoSenior1" element={<EquipoSenior1 />} />
         <Route path="/equipoSenior2" element={<EquipoSenior2 />} />
         <Route path="/equipoSenior3" element={<EquipoSenior3 />} />
         <Route path="/equipoSenior4" element={<EquipoSenior4 />} />
@@ -438,11 +438,11 @@ export default function App() {
         <Route path="/JugadoresExpulsadosSenior" element={<JugadoresExpulsadosSenior />} />
         <Route path="/VallaSenior" element={<VallaSenior />} />
 
-        <Route path="/ImagenesSenior" element={<ImagenesSenior />} /> */}
+        <Route path="/ImagenesSenior" element={<ImagenesSenior />} />
         
 
         {/* Super Senior */}
-        {/* <Route path="/equipoSuperSenior1" element={<EquipoSuperSenior1 />} />
+        <Route path="/equipoSuperSenior1" element={<EquipoSuperSenior1 />} />
         <Route path="/equipoSuperSenior2" element={<EquipoSuperSenior2 />} />
         <Route path="/equipoSuperSenior3" element={<EquipoSuperSenior3 />} />
         <Route path="/equipoSuperSenior4" element={<EquipoSuperSenior4 />} />
@@ -462,7 +462,7 @@ export default function App() {
         <Route path="/JugadoresExpulsadosSuperSenior" element={<JugadoresExpulsadosSuperSenior />} />
         <Route path="/VallaSuperSenior" element={<VallaSuperSenior />} />
 
-        <Route path="/ImagenesSuperSenior" element={<ImagenesSuperSenior />} /> */}
+        <Route path="/ImagenesSuperSenior" element={<ImagenesSuperSenior />} />
 
       </Routes>
       )}
