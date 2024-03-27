@@ -24,10 +24,30 @@ import EquipoSenior6                                                  from './Pa
 import EquipoSenior7                                                  from './Pages/Senior/Equipos/equipo7.jsx';
 import EquipoSenior8                                                  from './Pages/Senior/Equipos/equipo8.jsx';
 //Partidos
-import FechaSenior1                                                   from './Pages/Senior/Partidos/fecha1.jsx';
-import FechaSenior2                                                   from './Pages/Senior/Partidos/fecha2.jsx';
-import FechaSenior3                                                   from './Pages/Senior/Partidos/fecha3.jsx';
-import FechaSenior4                                                   from './Pages/Senior/Partidos/fecha4.jsx';
+import FechaSenior1                                                   from './Pages/Senior/Partidos1/fecha1.jsx';
+import FechaSenior2                                                   from './Pages/Senior/Partidos1/fecha2.jsx';
+import FechaSenior3                                                   from './Pages/Senior/Partidos1/fecha3.jsx';
+import FechaSenior4                                                   from './Pages/Senior/Partidos1/fecha4.jsx';
+import FechaSenior5                                                   from './Pages/Senior/Partidos1/fecha5.jsx';
+import FechaSenior6                                                   from './Pages/Senior/Partidos1/fecha6.jsx';
+import FechaSenior7                                                   from './Pages/Senior/Partidos1/fecha7.jsx';
+import FechaSenior8                                                   from './Pages/Senior/Partidos2/fecha8.jsx';
+import FechaSenior9                                                   from './Pages/Senior/Partidos2/fecha9.jsx';
+import FechaSenior10                                                  from './Pages/Senior/Partidos2/fecha10.jsx';
+import FechaSenior11                                                  from './Pages/Senior/Partidos2/fecha11.jsx';
+import FechaSenior12                                                  from './Pages/Senior/Partidos2/fecha12.jsx';
+import FechaSenior13                                                  from './Pages/Senior/Partidos2/fecha13.jsx';
+import FechaSenior14                                                  from './Pages/Senior/Partidos2/fecha14.jsx';
+//Copa Plata
+import PlataSenior1                                                   from './Pages/Senior/CopaPlata/fecha1.jsx';
+import PlataSenior2                                                   from './Pages/Senior/CopaPlata/fecha2.jsx';
+import PlataSenior3                                                   from './Pages/Senior/CopaPlata/semiFinal.jsx';
+import PlataSenior4                                                   from './Pages/Senior/CopaPlata/final.jsx';
+//Copa Oro
+import OroSenior1                                                     from './Pages/Senior/CopaOro/fecha1.jsx';
+import OroSenior2                                                     from './Pages/Senior/CopaOro/fecha2.jsx';
+import OroSenior3                                                     from './Pages/Senior/CopaOro/semiFinal.jsx';
+import OroSenior4                                                     from './Pages/Senior/CopaOro/final.jsx';
 //Estadisticas
 import PosicionesSenior                                               from './Pages/Senior/Estadisticas/posiciones.jsx'
 import GoleadoresSenior                                               from './Pages/Senior/Estadisticas/goleadores.jsx'
@@ -48,10 +68,30 @@ import EquipoSuperSenior6                                             from './Pa
 import EquipoSuperSenior7                                             from './Pages/SuperSenior/Equipos/equipo7.jsx';
 import EquipoSuperSenior8                                             from './Pages/SuperSenior/Equipos/equipo8.jsx';
 //Partidos
-import FechaSuperSenior1                                              from './Pages/SuperSenior/Partidos/fecha1.jsx';
-import FechaSuperSenior2                                              from './Pages/SuperSenior/Partidos/fecha2.jsx';
-import FechaSuperSenior3                                              from './Pages/SuperSenior/Partidos/fecha3.jsx';
-import FechaSuperSenior4                                              from './Pages/SuperSenior/Partidos/fecha4.jsx';
+import FechaSuperSenior1                                              from './Pages/SuperSenior/Partidos1/fecha1.jsx';
+import FechaSuperSenior2                                              from './Pages/SuperSenior/Partidos1/fecha2.jsx';
+import FechaSuperSenior3                                              from './Pages/SuperSenior/Partidos1/fecha3.jsx';
+import FechaSuperSenior4                                              from './Pages/SuperSenior/Partidos1/fecha4.jsx';
+import FechaSuperSenior5                                              from './Pages/SuperSenior/Partidos1/fecha5.jsx';
+import FechaSuperSenior6                                              from './Pages/SuperSenior/Partidos1/fecha6.jsx';
+import FechaSuperSenior7                                              from './Pages/SuperSenior/Partidos1/fecha7.jsx';
+import FechaSuperSenior8                                              from './Pages/SuperSenior/Partidos2/fecha8.jsx';
+import FechaSuperSenior9                                              from './Pages/SuperSenior/Partidos2/fecha9.jsx';
+import FechaSuperSenior10                                             from './Pages/SuperSenior/Partidos2/fecha10.jsx';
+import FechaSuperSenior11                                             from './Pages/SuperSenior/Partidos2/fecha11.jsx';
+import FechaSuperSenior12                                             from './Pages/SuperSenior/Partidos2/fecha12.jsx';
+import FechaSuperSenior13                                             from './Pages/SuperSenior/Partidos2/fecha13.jsx';
+import FechaSuperSenior14                                             from './Pages/SuperSenior/Partidos2/fecha14.jsx';
+//Copa Plata
+import PlataSuperSenior1                                              from './Pages/SuperSenior/CopaPlata/fecha1.jsx';
+import PlataSuperSenior2                                              from './Pages/SuperSenior/CopaPlata/fecha2.jsx';
+import PlataSuperSenior3                                              from './Pages/SuperSenior/CopaPlata/semiFinal.jsx';
+import PlataSuperSenior4                                              from './Pages/SuperSenior/CopaPlata/final.jsx';
+//Copa Oro
+import OroSuperSenior1                                                from './Pages/SuperSenior/CopaOro/fecha1.jsx';
+import OroSuperSenior2                                                from './Pages/SuperSenior/CopaOro/fecha2.jsx';
+import OroSuperSenior3                                                from './Pages/SuperSenior/CopaOro/semiFinal.jsx';
+import OroSuperSenior4                                                from './Pages/SuperSenior/CopaOro/final.jsx';
 //Estadisticas
 import PosicionesSuperSenior                                          from './Pages/SuperSenior/Estadisticas/posiciones.jsx'
 import GoleadoresSuperSenior                                          from './Pages/SuperSenior/Estadisticas/goleadores.jsx'
@@ -167,28 +207,47 @@ export default function App() {
       ],
     },
     {
-      nombre: 'Partidos',
+      nombre: 'Partidos 1',
       pagina: [
         { nombre: 'Fecha 1', url: '/FechaSenior1' },
         { nombre: 'Fecha 2', url: '/FechaSenior2' },
         { nombre: 'Fecha 3', url: '/FechaSenior3' },
         { nombre: 'Fecha 4', url: '/FechaSenior4' },
+        { nombre: 'Fecha 5', url: '/FechaSenior5' },
+        { nombre: 'Fecha 6', url: '/FechaSenior6' },
+        { nombre: 'Fecha 7', url: '/FechaSenior7' },
       ],
     },
-    // {
-    //   nombre: 'Copa plata',
-    //   pagina: [
-    //     { nombre: 'Semi final', url: '/ImagenesSenior' },
-    //     { nombre: 'Final', url: '/ImagenesSenior' },
-    //   ],
-    // },
-    // {
-    //   nombre: 'Copa oro',
-    //   pagina: [
-    //     { nombre: 'Semi final', url: '/SemioroSenior' },
-    //     { nombre: 'Final', url: '/ImagenesSenior' },
-    //   ],
-    // },
+    {
+      nombre: 'Partidos 2',
+      pagina: [
+        { nombre: 'Fecha 8', url: '/FechaSenior8' },
+        { nombre: 'Fecha 9', url: '/FechaSenior9' },
+        { nombre: 'Fecha 10', url: '/FechaSenior10' },
+        { nombre: 'Fecha 11', url: '/FechaSenior11' },
+        { nombre: 'Fecha 12', url: '/FechaSenior12' },
+        { nombre: 'Fecha 13', url: '/FechaSenior13' },
+        { nombre: 'Fecha 14', url: '/FechaSenior14' },
+      ],
+    },
+    {
+      nombre: 'Copa plata',
+      pagina: [
+        { nombre: 'Fecha 1', url: '/PlataSenior1' },
+        { nombre: 'Fecha 2', url: '/PlataSenior2' },
+        { nombre: 'Semi final', url: '/PlataSenior3' },
+        { nombre: 'Final', url: '/PlataSenior4' },
+      ],
+    },
+    {
+      nombre: 'Copa oro',
+      pagina: [
+        { nombre: 'Fecha 1', url: '/OroSenior1' },
+        { nombre: 'Fecha 2', url: '/OroSenior2' },
+        { nombre: 'Semi final', url: '/OroSenior3' },
+        { nombre: 'Final', url: '/OroSenior4' },
+      ],
+    },
     {
       nombre: 'Estadisticas',
       pagina: [
@@ -248,31 +307,47 @@ export default function App() {
       ],
     },
     {
-      nombre: 'Partidos',
+      nombre: 'Partidos 1',
       pagina: [
-        { nombre: 'Fecha 1', url: '/FechaSuperSenior1' },
-        { nombre: 'Fecha 2', url: '/FechaSuperSenior2' },
-        { nombre: 'Fecha 3', url: '/FechaSuperSenior3' },
-        { nombre: 'Fecha 4', url: '/FechaSuperSenior4' }, 
-        { nombre: 'Fecha 5', url: '/FechaSuperSenior4' }, 
-        { nombre: 'Fecha 6', url: '/FechaSuperSenior4' }, 
-        // { nombre: 'Final', url: '/FechaSuperSenior4' }, 
+        { nombre: 'Fecha 1', url: '/FechaSenior1' },
+        { nombre: 'Fecha 2', url: '/FechaSenior2' },
+        { nombre: 'Fecha 3', url: '/FechaSenior3' },
+        { nombre: 'Fecha 4', url: '/FechaSenior4' },
+        { nombre: 'Fecha 5', url: '/FechaSenior5' },
+        { nombre: 'Fecha 6', url: '/FechaSenior6' },
+        { nombre: 'Fecha 7', url: '/FechaSenior7' },
       ],
     },
-        // {
-    //   nombre: 'Copa plata',
-    //   pagina: [
-    //     { nombre: 'Semi final', url: '/ImagenesSenior' },
-    //     { nombre: 'Final', url: '/ImagenesSenior' },
-    //   ],
-    // },
-    // {
-    //   nombre: 'Copa oro',
-    //   pagina: [
-    //     { nombre: 'Semi final', url: '/SemioroSenior' },
-    //     { nombre: 'Final', url: '/ImagenesSenior' },
-    //   ],
-    // },
+    {
+      nombre: 'Partidos 2',
+      pagina: [
+        { nombre: 'Fecha 8', url: '/FechaSenior8' },
+        { nombre: 'Fecha 9', url: '/FechaSenior9' },
+        { nombre: 'Fecha 10', url: '/FechaSenior10' },
+        { nombre: 'Fecha 11', url: '/FechaSenior11' },
+        { nombre: 'Fecha 12', url: '/FechaSenior12' },
+        { nombre: 'Fecha 13', url: '/FechaSenior13' },
+        { nombre: 'Fecha 14', url: '/FechaSenior14' },
+      ],
+    },
+    {
+      nombre: 'Copa plata',
+      pagina: [
+        { nombre: 'Fecha 1', url: '/PlataSuperSenior1' },
+        { nombre: 'Fecha 2', url: '/PlataSuperSenior2' },
+        { nombre: 'Semi final', url: '/PlataSuperSenior3' },
+        { nombre: 'Final', url: '/PlataSuperSenior4' },
+      ],
+    },
+    {
+      nombre: 'Copa oro',
+      pagina: [
+        { nombre: 'Fecha 1', url: '/OroSuperSenior1' },
+        { nombre: 'Fecha 2', url: '/OroSuperSenior2' },
+        { nombre: 'Semi final', url: '/OroSuperSenior3' },
+        { nombre: 'Final', url: '/OroSuperSenior4' },
+      ],
+    },
     {
       nombre: 'Estadisticas',
       pagina: [
@@ -431,6 +506,26 @@ export default function App() {
         <Route path="/FechaSenior2" element={<FechaSenior2 />} />
         <Route path="/FechaSenior3" element={<FechaSenior3 />} />
         <Route path="/FechaSenior4" element={<FechaSenior4 />} />
+        <Route path="/FechaSenior5" element={<FechaSenior5 />} />
+        <Route path="/FechaSenior6" element={<FechaSenior6 />} />
+        <Route path="/FechaSenior7" element={<FechaSenior7 />} />
+        <Route path="/FechaSenior8" element={<FechaSenior8 />} />
+        <Route path="/FechaSenior9" element={<FechaSenior9 />} />
+        <Route path="/FechaSenior10" element={<FechaSenior10 />} />
+        <Route path="/FechaSenior11" element={<FechaSenior11 />} />
+        <Route path="/FechaSenior12" element={<FechaSenior12 />} />
+        <Route path="/FechaSenior13" element={<FechaSenior13 />} />
+        <Route path="/FechaSenior14" element={<FechaSenior14 />} />
+
+        <Route path="/PlataSenior1" element={<PlataSenior1 />} />
+        <Route path="/PlataSenior2" element={<PlataSenior2 />} />
+        <Route path="/PlataSenior3" element={<PlataSenior3 />} />
+        <Route path="/PlataSenior4" element={<PlataSenior4 />} />
+
+        <Route path="/OroSenior1" element={<OroSenior1 />} />
+        <Route path="/OroSenior2" element={<OroSenior2 />} />
+        <Route path="/OroSenior3" element={<OroSenior3 />} />
+        <Route path="/OroSenior4" element={<OroSenior4 />} />
 
         <Route path="/PosicionesSenior" element={<PosicionesSenior />} />
         <Route path="/GoleadoresSenior" element={<GoleadoresSenior />} />
@@ -455,6 +550,26 @@ export default function App() {
         <Route path="/FechaSuperSenior2" element={<FechaSuperSenior2 />} />
         <Route path="/FechaSuperSenior3" element={<FechaSuperSenior3 />} />
         <Route path="/FechaSuperSenior4" element={<FechaSuperSenior4 />} />
+        <Route path="/FechaSuperSenior5" element={<FechaSuperSenior5 />} />
+        <Route path="/FechaSuperSenior6" element={<FechaSuperSenior6 />} />
+        <Route path="/FechaSuperSenior7" element={<FechaSuperSenior7 />} />
+        <Route path="/FechaSuperSenior8" element={<FechaSuperSenior8 />} />
+        <Route path="/FechaSuperSenior9" element={<FechaSuperSenior9 />} />
+        <Route path="/FechaSuperSenior10" element={<FechaSuperSenior10 />} />
+        <Route path="/FechaSuperSenior11" element={<FechaSuperSenior11 />} />
+        <Route path="/FechaSuperSenior12" element={<FechaSuperSenior12 />} />
+        <Route path="/FechaSuperSenior13" element={<FechaSuperSenior13 />} />
+        <Route path="/FechaSuperSenior14" element={<FechaSuperSenior14 />} />
+
+        <Route path="/PlataSuperSenior1" element={<PlataSuperSenior1 />} />
+        <Route path="/PlataSuperSenior2" element={<PlataSuperSenior2 />} />
+        <Route path="/PlataSuperSenior3" element={<PlataSuperSenior3 />} />
+        <Route path="/PlataSuperSenior4" element={<PlataSuperSenior4 />} />
+
+        <Route path="/OroSuperSenior1" element={<OroSuperSenior1 />} />
+        <Route path="/OroSuperSenior2" element={<OroSuperSenior2 />} />
+        <Route path="/OroSuperSenior3" element={<OroSuperSenior3 />} />
+        <Route path="/OroSuperSenior4" element={<OroSuperSenior4 />} />
 
         <Route path="/PosicionesSuperSenior" element={<PosicionesSuperSenior />} />
         <Route path="/GoleadoresSuperSenior" element={<GoleadoresSuperSenior />} />
