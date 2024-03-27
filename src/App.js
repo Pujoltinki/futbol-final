@@ -98,6 +98,8 @@ import GoleadoresSuperSenior                                          from './Pa
 import JuegoLimpioSuperSenior                                         from './Pages/SuperSenior/Estadisticas/juegoLimpio.jsx'
 import JugadoresExpulsadosSuperSenior                                 from './Pages/SuperSenior/Estadisticas/jugadorExpulsado.jsx'
 import VallaSuperSenior                                               from './Pages/SuperSenior/Estadisticas/vallaMenosBatida.jsx'
+//Resultados
+import Tabs1                                                          from './Pages/SuperSenior/Resultados/tab1.jsx'
 
 //Galeria
 import ImagenesSuperSenior                                            from './Pages/SuperSenior/Galeria/imagenes.jsx'
@@ -230,24 +232,24 @@ export default function App() {
         { nombre: 'Fecha 14', url: '/FechaSenior14' },
       ],
     },
-    {
-      nombre: 'Copa plata',
-      pagina: [
-        { nombre: 'Fecha 1', url: '/PlataSenior1' },
-        { nombre: 'Fecha 2', url: '/PlataSenior2' },
-        { nombre: 'Semi final', url: '/PlataSenior3' },
-        { nombre: 'Final', url: '/PlataSenior4' },
-      ],
-    },
-    {
-      nombre: 'Copa oro',
-      pagina: [
-        { nombre: 'Fecha 1', url: '/OroSenior1' },
-        { nombre: 'Fecha 2', url: '/OroSenior2' },
-        { nombre: 'Semi final', url: '/OroSenior3' },
-        { nombre: 'Final', url: '/OroSenior4' },
-      ],
-    },
+    // {
+    //   nombre: 'Copa plata',
+    //   pagina: [
+    //     { nombre: 'Fecha 1', url: '/PlataSenior1' },
+    //     { nombre: 'Fecha 2', url: '/PlataSenior2' },
+    //     { nombre: 'Semi final', url: '/PlataSenior3' },
+    //     { nombre: 'Final', url: '/PlataSenior4' },
+    //   ],
+    // },
+    // {
+    //   nombre: 'Copa oro',
+    //   pagina: [
+    //     { nombre: 'Fecha 1', url: '/OroSenior1' },
+    //     { nombre: 'Fecha 2', url: '/OroSenior2' },
+    //     { nombre: 'Semi final', url: '/OroSenior3' },
+    //     { nombre: 'Final', url: '/OroSenior4' },
+    //   ],
+    // },
     {
       nombre: 'Estadisticas',
       pagina: [
@@ -331,23 +333,29 @@ export default function App() {
       ],
     },
     {
-      nombre: 'Copa plata',
+      nombre: 'Resultados',
       pagina: [
-        { nombre: 'Fecha 1', url: '/PlataSuperSenior1' },
-        { nombre: 'Fecha 2', url: '/PlataSuperSenior2' },
-        { nombre: 'Semi final', url: '/PlataSuperSenior3' },
-        { nombre: 'Final', url: '/PlataSuperSenior4' },
+        { nombre: 'Ver resultados', url: '/Tabs1' },
       ],
     },
-    {
-      nombre: 'Copa oro',
-      pagina: [
-        { nombre: 'Fecha 1', url: '/OroSuperSenior1' },
-        { nombre: 'Fecha 2', url: '/OroSuperSenior2' },
-        { nombre: 'Semi final', url: '/OroSuperSenior3' },
-        { nombre: 'Final', url: '/OroSuperSenior4' },
-      ],
-    },
+    // {
+    //   nombre: 'Copa plata',
+    //   pagina: [
+    //     { nombre: 'Fecha 1', url: '/PlataSuperSenior1' },
+    //     { nombre: 'Fecha 2', url: '/PlataSuperSenior2' },
+    //     { nombre: 'Semi final', url: '/PlataSuperSenior3' },
+    //     { nombre: 'Final', url: '/PlataSuperSenior4' },
+    //   ],
+    // },
+    // {
+    //   nombre: 'Copa oro',
+    //   pagina: [
+    //     { nombre: 'Fecha 1', url: '/OroSuperSenior1' },
+    //     { nombre: 'Fecha 2', url: '/OroSuperSenior2' },
+    //     { nombre: 'Semi final', url: '/OroSuperSenior3' },
+    //     { nombre: 'Final', url: '/OroSuperSenior4' },
+    //   ],
+    // },
     {
       nombre: 'Estadisticas',
       pagina: [
@@ -578,6 +586,8 @@ export default function App() {
         <Route path="/VallaSuperSenior" element={<VallaSuperSenior />} />
 
         <Route path="/ImagenesSuperSenior" element={<ImagenesSuperSenior />} />
+        
+        <Route path="/Tabs1" element={<Tabs1 />} />
 
       </Routes>
       )}

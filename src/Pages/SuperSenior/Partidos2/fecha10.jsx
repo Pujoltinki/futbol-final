@@ -175,7 +175,7 @@ export default function CollapsibleTable() {
   return (
     <Grid>
       <Grid className="grisCuadro">
-        <h2 style={{ textAlign: 'center' }}>Partidos jugados fecha 1</h2>
+        <h2 style={{ textAlign: 'center' }}>Partidos jugados fecha 10</h2>
         <TableContainer component={Paper}>
           <Table aria-label="collapsible table">
             <TableHead>
