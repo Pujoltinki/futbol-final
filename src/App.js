@@ -127,7 +127,7 @@ export default function App() {
           <Grid hidden={!mostrarSenior}>
             <Grid className="SubCabecera">
               <Grid container justifyContent="center" >
-              <ButtonGroup variant="contained">
+              <ButtonGroup variant="contained" style={{ display: 'flex', overflowX: 'auto' }}>
                 <Link  component={RouterLink} to="/EquipoSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white', borderRightColor: 'black'  }}>Equipos</Button></Link>
                 <Link  component={RouterLink} to="/FechaSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white', borderRightColor: 'black'  }}>Partidos</Button></Link>
                 <Link  component={RouterLink} to="/ResultadosSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white', borderRightColor: 'black'  }}>Resultados</Button></Link>
@@ -160,8 +160,8 @@ export default function App() {
                     </TableHead>
                       <TableBody>
                       {fechaSenior.map((row) => (
-                        <TableRow key={row.id1} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                          <TableCell component="th" scope="row">{row.fechas}</TableCell>
+                        <TableRow>
+                          <TableCell>{row.fechas}</TableCell>
                           <TableCell>{row.horas}</TableCell>
                           <TableCell>{row.equipo1}</TableCell>
                           <TableCell>{row.vs}</TableCell>
@@ -178,7 +178,7 @@ export default function App() {
           <Grid hidden={!mostrarSuperSenior}>
             <Grid className="SubCabecera">
               <Grid container justifyContent="center" className="posicionMenu">
-              <ButtonGroup variant="contained" aria-label="Basic button group" >
+              <ButtonGroup variant="contained" style={{ display: 'flex', overflowX: 'auto' }}>
                 <Link  component={RouterLink} to="/EquipoSuperSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white' , borderRightColor: 'black'  }}>Equipos</Button></Link>
                 <Link  component={RouterLink} to="/FechaSuperSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  , borderRightColor: 'black'}}>Partidos</Button></Link>
                 <Link  component={RouterLink} to="/ResultadosSuperSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white' , borderRightColor: 'black' }}>Resultados</Button></Link>
@@ -213,8 +213,8 @@ export default function App() {
                     </TableHead>
                       <TableBody>
                       {fechaSuperSenior.map((row) => (
-                        <TableRow key={row.id1} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                          <TableCell component="th" scope="row">{row.fechas}</TableCell>
+                        <TableRow >
+                          <TableCell>{row.fechas}</TableCell>
                           <TableCell>{row.horas}</TableCell>
                           <TableCell>{row.equipo1}</TableCell>
                           <TableCell>{row.vs}</TableCell>
