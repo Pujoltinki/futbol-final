@@ -128,13 +128,13 @@ export default function App() {
             <Grid className="SubCabecera">
               <Grid container justifyContent="center" className="posicionMenu">
               <ButtonGroup variant="contained">
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
-                <Link  component={RouterLink} to="/Tabs1"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/EquipoSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/FechaSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/ResultadosSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/OroSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/PlataSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/EstadisticasSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
+                <Link  component={RouterLink} to="/GaleriaSenior"><Button variant="contained" onClick={pagina} style={{ backgroundColor: 'green' , color: 'white'  }}>Equipos</Button></Link>
                 
               </ButtonGroup>
               {/* <ListaMenuSenior equipos={datosSenior}/> */}
