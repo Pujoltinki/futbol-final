@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/futbol-final/static/css/main.266d58d6.css",
-    "main.js": "/futbol-final/static/js/main.28974b91.js",
+    "main.css": "/futbol-final/static/css/main.6de5d67d.css",
+    "main.js": "/futbol-final/static/js/main.8f432ce1.js",
     "static/media/alexis.webp": "/futbol-final/static/media/alexis.70efdd174eb8c4e540cf.webp",
     "static/media/Equipo1.jpg": "/futbol-final/static/media/Equipo1.a808bec0158ceaf77684.jpg",
     "static/media/Messi.jpg": "/futbol-final/static/media/Messi.0a2b56d3f856cd2d0732.jpg",
@@ -11,11 +11,11 @@
     "static/media/mago.jpg": "/futbol-final/static/media/mago.470d6ef372b27bbed70e.jpg",
     "static/media/ronaldino.jpg": "/futbol-final/static/media/ronaldino.bbb9972f3ffac07156d7.jpg",
     "index.html": "/futbol-final/index.html",
-    "main.266d58d6.css.map": "/futbol-final/static/css/main.266d58d6.css.map",
-    "main.28974b91.js.map": "/futbol-final/static/js/main.28974b91.js.map"
+    "main.6de5d67d.css.map": "/futbol-final/static/css/main.6de5d67d.css.map",
+    "main.8f432ce1.js.map": "/futbol-final/static/js/main.8f432ce1.js.map"
   },
   "entrypoints": [
-    "static/css/main.266d58d6.css",
-    "static/js/main.28974b91.js"
+    "static/css/main.6de5d67d.css",
+    "static/js/main.8f432ce1.js"
   ]
 }
