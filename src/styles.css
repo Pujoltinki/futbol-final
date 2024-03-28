@@ -88,29 +88,6 @@ th {
   text-align: center;
 }
 
-section {
-  display: flex;
-  margin: 0 auto;
-
-  width: 600px;
-  height: 430px;
-}
-
-section img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: .8;
-  transition: .5s ease;
-}
-
-section img:hover {
-  cursor: crosshair;
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
-
 
 @media (max-width: 768px) {
 
