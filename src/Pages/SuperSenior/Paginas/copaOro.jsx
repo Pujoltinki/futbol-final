@@ -22,8 +22,8 @@ export default function LabTabs() {
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-          <TabList onChange={handleChange} aria-label="lab API tabs example"  variant="scrollable" scrollButtons="auto">
+      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable" scrollButtons allowScrollButtonsMobile>
             <Tab label="Fecha 1"  value="1" />
             <Tab label="Fecha 2"  value="2" />
             <Tab label="Semi final"  value="3" />

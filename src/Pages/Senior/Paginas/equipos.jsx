@@ -25,18 +25,19 @@ export default function LabTabs() {
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-          <TabList onChange={handleChange} aria-label="lab API tabs example"  variant="scrollable" scrollButtons="auto">
-            <Tab label="Fecha 1"  value="1" />
-            <Tab label="Fecha 2"  value="2" />
-            <Tab label="Fecha 3"  value="3" />
-            <Tab label="Fecha 4"  value="4" />
-            <Tab label="Fecha 5"  value="5" />
-            <Tab label="Fecha 6"  value="6" />
-            <Tab label="Fecha 7"  value="7" />
-            <Tab label="Fecha 8"  value="8" />
-          </TabList>
-        </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable" scrollButtons allowScrollButtonsMobile>
+            <Tab label="Fecha 1" value="1" />
+            <Tab label="Fecha 2" value="2" />
+            <Tab label="Fecha 3" value="3" />
+            <Tab label="Fecha 4" value="4" />
+            <Tab label="Fecha 5" value="5" />
+            <Tab label="Fecha 6" value="6" />
+            <Tab label="Fecha 7" value="7" />
+            <Tab label="Fecha 8" value="8" />
+        </TabList>
+      </Box>
+
         <TabPanel value="1">   <EquipoSuperSenior1  /></TabPanel>
         <TabPanel value="2">   <EquipoSuperSenior2  /></TabPanel>
         <TabPanel value="3">   <EquipoSuperSenior3  /></TabPanel>
