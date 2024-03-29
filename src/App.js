@@ -93,6 +93,25 @@ export default function App() {
     Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
     Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
   ];
+
+  useEffect(() => {
+    const handleBeforeunload = (event) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+
+    window.addEventListener("beforeunload", handleBeforeunload);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeunload);
+    };
+  }, []);
+
+  useEffect(() => {
+    window.history.pushState({}, "", "/");
+  }, []);
+
+
   
   return (
     <Router>
