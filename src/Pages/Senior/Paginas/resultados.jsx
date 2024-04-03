@@ -34,19 +34,19 @@ export default function LabTabs() {
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable" scrollButtons allowScrollButtonsMobile>
             <Tab label="Fecha 1"    value="1" />
-            <Tab label="Fecha 2"    value="2" />
-            <Tab label="Fecha 3"    value="3" />
-            <Tab label="Fecha 4"    value="4" />
-            <Tab label="Fecha 5"    value="5" />
-            <Tab label="Fecha 6"    value="6" />
-            <Tab label="Fecha 7"    value="7" />
-            <Tab label="Fecha 8"    value="8" />
-            <Tab label="Fecha 9"    value="9" />
-            <Tab label="Fecha 10"   value="10"/>
-            <Tab label="Fecha 11"   value="11"/>
-            <Tab label="Fecha 12"   value="12"/>
-            <Tab label="Fecha 13"   value="13"/>
-            <Tab label="Fecha 14"   value="14"/>
+            <Tab label="Fecha 2"    value="2"  disabled/>
+            <Tab label="Fecha 3"    value="3"  disabled/>
+            <Tab label="Fecha 4"    value="4"  disabled/>
+            <Tab label="Fecha 5"    value="5"  disabled/>
+            <Tab label="Fecha 6"    value="6"  disabled/>
+            <Tab label="Fecha 7"    value="7"  disabled/>
+            <Tab label="Fecha 8"    value="8"  disabled/>
+            <Tab label="Fecha 9"    value="9"  disabled/>
+            <Tab label="Fecha 10"   value="10" disabled/>
+            <Tab label="Fecha 11"   value="11" disabled/>
+            <Tab label="Fecha 12"   value="12" disabled/>
+            <Tab label="Fecha 13"   value="13" disabled/>
+            <Tab label="Fecha 14"   value="14" disabled/>
           </TabList>
         </Box>
         <TabPanel value="1">   <ResultadosSenior1  /></TabPanel>

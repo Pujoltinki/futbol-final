@@ -87,3 +87,17 @@ th, td {
 th {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 30%;
+    margin: 0 auto; /* Centra el logo horizontalmente */
+  }
+  .logoAndTitle {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Modifica este valor para subir el logo */
+  }
+  
+  
+}

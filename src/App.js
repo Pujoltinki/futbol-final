@@ -1,6 +1,6 @@
 //Extensiones
 import React, { useState, useEffect}                                  from 'react';
-import { BrowserRouter as Router, Routes, Route, Link as RouterLink } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route, Link as RouterLink } from 'react-router-dom';
 import Link                                                           from '@mui/material/Link'; 
 import { Grid, Button }                                               from "@mui/material";
 import Table                                                          from '@mui/material/Table';
