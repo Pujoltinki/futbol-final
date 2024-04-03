@@ -6,10 +6,12 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
 //Copa Oro
-import OroSuperSenior1                                                from '../CopaOro/fecha1.jsx';
-import OroSuperSenior2                                                from '../CopaOro/fecha2.jsx';
-import OroSuperSenior3                                                from '../CopaOro/semiFinal.jsx';
-import OroSuperSenior4                                                from '../CopaOro/final.jsx';
+import OroSenior1                                                     from '../CopaOro/fecha1.jsx';
+import OroSenior2                                                     from '../CopaOro/fecha2.jsx';
+import OroSenior3                                                     from '../CopaOro/fecha3.jsx';
+import EstadisticasOro                                                from '../Paginas/estadisticasOro.jsx';
+import ResultadosOro                                                  from '../Paginas/resultadosOro.jsx';
+
 
 
 export default function LabTabs() {
@@ -24,16 +26,18 @@ export default function LabTabs() {
       <TabContext value={value}>
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable" scrollButtons allowScrollButtonsMobile>
-            <Tab label="Fecha 1"  value="1" />
-            <Tab label="Fecha 2"  value="2" />
-            <Tab label="Semi final"  value="3" />
-            <Tab label="Final"  value="4" />
+            <Tab label="Fecha 1"             value="1" />
+            <Tab label="Fecha 2"             value="2" />
+            <Tab label="Fecha 3"             value="3" />
+            <Tab label="Estadisticas"        value="4" />
+            <Tab label="Resultados"          value="5" />
           </TabList>
         </Box>
-        <TabPanel value="1">   <OroSuperSenior1  /></TabPanel>
-        <TabPanel value="2">   <OroSuperSenior2  /></TabPanel>
-        <TabPanel value="3">   <OroSuperSenior3  /></TabPanel>
-        <TabPanel value="4">   <OroSuperSenior4  /></TabPanel>
+        <TabPanel value="1">   <OroSenior1       /></TabPanel>
+        <TabPanel value="2">   <OroSenior2       /></TabPanel>
+        <TabPanel value="3">   <OroSenior3       /></TabPanel>
+        <TabPanel value="4">   <EstadisticasOro  /></TabPanel>
+        <TabPanel value="5">   <ResultadosOro    /></TabPanel>
       </TabContext>
     </Box>
   );

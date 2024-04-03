@@ -87,24 +87,3 @@ th, td {
 th {
   text-align: center;
 }
-
-
-@media (max-width: 768px) {
-
-  table {
-    display: block;
-  }
-
-  th, td {
-    display: block;
-  }
-
-  th {
-    width: 100%;
-  }
-
-  td {
-    margin-bottom: 10px;
-  }
-
-}

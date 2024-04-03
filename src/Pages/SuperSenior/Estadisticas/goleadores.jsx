@@ -45,7 +45,7 @@ export default function CustomizedTables() {
     <Grid className="grisCuadro">
       <h2 style={{ textAlign: 'center' }}>Goleadores</h2>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }} aria-label="customized table">
+        <Table sx={{ minWidth: 350 }} aria-label="customized table">
           <TableHead>
             <TableRow>
               <StyledTableCell>Equipo</StyledTableCell>

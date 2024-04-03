@@ -26,7 +26,6 @@ import GaleriaSenior                                             from './Pages/S
 
 // SuperSenior
 //Paginas
-import Tabs1                                                          from './Pages/SuperSenior/Resultados/tab1.jsx'
 import EquipoSuperSenior                                              from './Pages/SuperSenior/Paginas/equipos.jsx'
 import FechaSuperSenior                                               from './Pages/SuperSenior/Paginas/partidos.jsx'
 import ResultadosSuperSenior                                          from './Pages/SuperSenior/Paginas/resultados.jsx'
@@ -94,25 +93,6 @@ export default function App() {
     Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
   ];
 
-  useEffect(() => {
-    const handleBeforeunload = (event) => {
-      event.preventDefault();
-      event.returnValue = "";
-    };
-
-    window.addEventListener("beforeunload", handleBeforeunload);
-
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeunload);
-    };
-  }, []);
-
-  useEffect(() => {
-    window.history.pushState({}, "", "/");
-  }, []);
-
-
-  
   return (
     <Router>
       <Grid> 
@@ -262,8 +242,6 @@ export default function App() {
         <Route path="/PlataSenior"        element={<PlataSenior />} />
         <Route path="/EstadisticasSenior" element={<EstadisticasSenior />} />
         <Route path="/GaleriaSenior"      element={<GaleriaSenior />} />
-
-        <Route path="/Tabs1" element={<Tabs1 />} />
 
         {/* Super Senior */}
 

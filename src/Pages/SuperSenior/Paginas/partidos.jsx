@@ -5,20 +5,20 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
-import FechaSuperSenior1  from '../Partidos1/fecha1.jsx';
-import FechaSuperSenior2  from '../Partidos1/fecha2.jsx';
-import FechaSuperSenior3  from '../Partidos1/fecha3.jsx';
-import FechaSuperSenior4  from '../Partidos1/fecha4.jsx';
-import FechaSuperSenior5  from '../Partidos1/fecha5.jsx';
-import FechaSuperSenior6  from '../Partidos1/fecha6.jsx';
-import FechaSuperSenior7  from '../Partidos1/fecha7.jsx';
-import FechaSuperSenior8  from '../Partidos2/fecha8.jsx';
-import FechaSuperSenior9  from '../Partidos2/fecha9.jsx';
-import FechaSuperSenior10 from '../Partidos2/fecha10.jsx';
-import FechaSuperSenior11 from '../Partidos2/fecha11.jsx';
-import FechaSuperSenior12 from '../Partidos2/fecha12.jsx';
-import FechaSuperSenior13 from '../Partidos2/fecha13.jsx';
-import FechaSuperSenior14 from '../Partidos2/fecha14.jsx';
+import FechaSuperSenior1  from '../Partidos/fecha1.jsx';
+import FechaSuperSenior2  from '../Partidos/fecha2.jsx';
+import FechaSuperSenior3  from '../Partidos/fecha3.jsx';
+import FechaSuperSenior4  from '../Partidos/fecha4.jsx';
+import FechaSuperSenior5  from '../Partidos/fecha5.jsx';
+import FechaSuperSenior6  from '../Partidos/fecha6.jsx';
+import FechaSuperSenior7  from '../Partidos/fecha7.jsx';
+import FechaSuperSenior8  from '../Partidos/fecha8.jsx';
+import FechaSuperSenior9  from '../Partidos/fecha9.jsx';
+import FechaSuperSenior10 from '../Partidos/fecha10.jsx';
+import FechaSuperSenior11 from '../Partidos/fecha11.jsx';
+import FechaSuperSenior12 from '../Partidos/fecha12.jsx';
+import FechaSuperSenior13 from '../Partidos/fecha13.jsx';
+import FechaSuperSenior14 from '../Partidos/fecha14.jsx';
 
 
 export default function LabTabs() {
@@ -42,11 +42,11 @@ export default function LabTabs() {
             <Tab label="Fecha 7"  value="7" />
             <Tab label="Fecha 8"  value="8" />
             <Tab label="Fecha 9"  value="9" />
-            <Tab label="Fecha 10" value="10" />
-            <Tab label="Fecha 11" value="11" />
-            <Tab label="Fecha 12" value="12" />
-            <Tab label="Fecha 13" value="13" />
-            <Tab label="Fecha 14" value="14" />
+            <Tab label="Fecha 10" value="10"/>
+            <Tab label="Fecha 11" value="11"/>
+            <Tab label="Fecha 12" value="12"/>
+            <Tab label="Fecha 13" value="13"/>
+            <Tab label="Fecha 14" value="14"/>
           </TabList>
         </Box>
         <TabPanel value="1">   <FechaSuperSenior1  /></TabPanel>

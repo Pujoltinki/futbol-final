@@ -360,6 +360,136 @@ const rows = [
       rojo: '7',
     },
   ]),
+  createData('21', 'Jugador 21', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('22', 'Jugador 22', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('23', 'Jugador 23', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('24', 'Jugador 24', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('25', 'Jugador 25', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('26', 'Jugador 26', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('27', 'Jugador 27', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('28', 'Jugador 28', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('29', 'Jugador 29', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('30', 'Jugador 30', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
 
 ];
 

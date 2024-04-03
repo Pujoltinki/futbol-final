@@ -6,10 +6,12 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
 //Copa Oro
-import PlataSuperSenior1                                                from '../CopaPlata/fecha1.jsx';
-import PlataSuperSenior2                                                from '../CopaPlata/fecha2.jsx';
-import PlataSuperSenior3                                                from '../CopaPlata/semiFinal.jsx';
-import PlataSuperSenior4                                                from '../CopaPlata/final.jsx';
+import PlataSenior1                                                from '../CopaPlata/fecha1.jsx';
+import PlataSenior2                                                from '../CopaPlata/fecha2.jsx';
+import PlataSenior3                                                from '../CopaPlata/fecha3.jsx';
+import EstadisticasPlata                                           from '../Paginas/estadisticasPlata.jsx';
+import ResultadosPlata                                             from '../Paginas/resultadosPlata';
+
 
 
 export default function LabTabs() {
@@ -24,16 +26,18 @@ export default function LabTabs() {
       <TabContext value={value}>
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
         <TabList onChange={handleChange} aria-label="lab API tabs example" variant="scrollable" scrollButtons allowScrollButtonsMobile>
-            <Tab label="Fecha 1"  value="1" />
-            <Tab label="Fecha 2"  value="2" />
-            <Tab label="Semi final"  value="3" />
-            <Tab label="Final"  value="4" />
+            <Tab label="Fecha 1"             value="1" />
+            <Tab label="Fecha 2"             value="2" />
+            <Tab label="Fecha 3"             value="3" />
+            <Tab label="Estadisticas"        value="4" />
+            <Tab label="Resultados"          value="5" />
           </TabList>
         </Box>
-        <TabPanel value="1">   <PlataSuperSenior1  /></TabPanel>
-        <TabPanel value="2">   <PlataSuperSenior2  /></TabPanel>
-        <TabPanel value="3">   <PlataSuperSenior3  /></TabPanel>
-        <TabPanel value="4">   <PlataSuperSenior4  /></TabPanel>
+        <TabPanel value="1">   <PlataSenior1       /></TabPanel>
+        <TabPanel value="2">   <PlataSenior2       /></TabPanel>
+        <TabPanel value="3">   <PlataSenior3       /></TabPanel>
+        <TabPanel value="4">   <EstadisticasPlata  /></TabPanel>
+        <TabPanel value="5">   <ResultadosPlata    /></TabPanel>
       </TabContext>
     </Box>
   );

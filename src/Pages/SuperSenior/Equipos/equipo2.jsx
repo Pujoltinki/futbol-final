@@ -15,6 +15,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon   from '@mui/icons-material/KeyboardArrowUp';
 import { Grid }              from "@mui/material";
 
+//Imagenes
+import logo1                 from '../../../imagenes/Equipo2.avif';
+
 function createData(numero, nombre, posicion, estado, detalle) {
   return {
     numero,
@@ -357,14 +360,151 @@ const rows = [
       rojo: '7',
     },
   ]),
+  createData('21', 'Jugador 21', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('22', 'Jugador 22', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('23', 'Jugador 23', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('24', 'Jugador 24', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('25', 'Jugador 25', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('26', 'Jugador 26', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('27', 'Jugador 27', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('28', 'Jugador 28', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('29', 'Jugador 29', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
+  createData('30', 'Jugador 30', 'Arquero', 'Disponible', [
+    {
+      // Detalles de la tablas
+      gol: '1',
+      amarillo: ' 1',
+      rojo: ' 1',
+    },
+    {
+      gol: '0',
+      amarillo: '1',
+      rojo: '7',
+    },
+  ]),
 
 ];
 
 export default function CollapsibleTable() {
   return (
+    <Grid>
+
+    <h2 style={{ textAlign: 'center' }}>Jugadores del equipo 1</h2>
+          <Grid style={{ display: "flex", justifyContent: "center" }}>
+            <img src={logo1} alt="" style={{ width: "40%" }}/>
+          </Grid>
+    
     <Grid className="grisCuadro">
         {/* Ingresa aqui el nombre de los equipos */}
-      <h2 style={{ textAlign: 'center' }}>Jugadores del equipo 2</h2>
+
       <TableContainer component={Paper}>
         <Table aria-label="collapsible table">
           <TableHead>
@@ -383,6 +523,8 @@ export default function CollapsibleTable() {
           </TableBody>
         </Table>
       </TableContainer>
+    </Grid>
+
     </Grid>
   );
 }
