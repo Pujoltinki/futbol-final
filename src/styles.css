@@ -64,7 +64,7 @@ body {
   background-color: #f0f0f0; /* Color gris */
   padding: 30px; /* Espacio interior del cuadro */
   border-radius: 20px; /* Bordes redondeados */
-  margin: 50px; /* Espacio exterior del cuadro */
+  margin: 25px; /* Espacio exterior del cuadro */
 }
 
 .logo {

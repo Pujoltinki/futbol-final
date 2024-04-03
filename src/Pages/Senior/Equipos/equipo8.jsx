@@ -497,7 +497,7 @@ export default function CollapsibleTable() {
   return (
     <Grid>
 
-    <h2 style={{ textAlign: 'center' }}>Jugadores del equipo 1</h2>
+    <h2 style={{ textAlign: 'center' }}>Jugadores del equipo 8</h2>
           <Grid style={{ display: "flex", justifyContent: "center" }}>
             <img src={logo1} alt="" style={{ width: "40%" }}/>
           </Grid>

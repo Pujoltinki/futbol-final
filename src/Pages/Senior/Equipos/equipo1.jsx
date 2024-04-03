@@ -43,7 +43,7 @@ function Row(props) {
           >{open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
           </IconButton>
         </TableCell>
-        <TableCell component="th" scope="row">{row.numero}</TableCell>
+        <TableCell>{row.numero}</TableCell>
         <TableCell>{row.nombre}</TableCell>
         <TableCell>{row.posicion}</TableCell>
         <TableCell>{row.estado}</TableCell>
@@ -104,8 +104,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -117,8 +117,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -130,8 +130,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -143,8 +143,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -156,8 +156,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -169,8 +169,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -182,8 +182,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -195,8 +195,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -208,8 +208,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -221,8 +221,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -234,8 +234,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -247,8 +247,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -260,8 +260,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -273,8 +273,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -286,8 +286,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -299,8 +299,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -312,8 +312,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -325,8 +325,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -338,8 +338,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -351,8 +351,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -364,8 +364,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -377,8 +377,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -390,8 +390,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -403,8 +403,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -416,8 +416,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -429,8 +429,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -442,8 +442,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -455,8 +455,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -468,8 +468,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',
@@ -481,8 +481,8 @@ const rows = [
     {
       // Detalles de la tablas
       gol: '1',
-      amarillo: ' 1',
-      rojo: ' 1',
+      amarillo: '1',
+      rojo: '1',
     },
     {
       gol: '0',

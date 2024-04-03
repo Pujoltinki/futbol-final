@@ -43,7 +43,7 @@ const rows = [
 export default function CustomizedTables() {
   return (
     <Grid className="grisCuadro">
-      <h2 style={{ textAlign: 'center' }}>Partidos fecha 1</h2>
+      <h2 style={{ textAlign: 'center' }}>Partidos fecha 3</h2>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 350 }} aria-label="customized table">
           <TableHead>

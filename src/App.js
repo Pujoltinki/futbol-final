@@ -68,29 +68,29 @@ export default function App() {
   };
   // Fecha de los partidos Senior
   
-  function Fecha1(fechas, horas, equipo1, vs, equipo2) {
-    return { fechas, horas, equipo1, vs, equipo2 };
+  function Fecha1(id, fechas, horas, equipo1, vs, equipo2) {
+    return { id, fechas, horas, equipo1, vs, equipo2 };
   }
   // Cololar en ese orden Fecha, hora, equipo 1, vs, equipo 2
   const fechaSenior = [
-    Fecha1('12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
-    Fecha1('12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
-    Fecha1('12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
-    Fecha1('12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
+    Fecha1(1, '12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
+    Fecha1(2, '12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
+    Fecha1(3, '12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
+    Fecha1(4, '12/12/12', "10:30", "Colo Colo", "vs", "U de Chile"),
 
   ];
 
   // Fecha de los partidos Super Senior
-  function Fecha2(fechas, horas, equipo1, vs, equipo2) {
-    return { fechas, horas, equipo1, vs, equipo2 };
+  function Fecha2(id, fechas, horas, equipo1, vs, equipo2) {
+    return {id, fechas, horas, equipo1, vs, equipo2 };
   }
   
   // Cololar en ese orden Fecha, hora, equipo 1, vs, equipo 2
   const fechaSuperSenior = [
-    Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
-    Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
-    Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
-    Fecha2('11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
+    Fecha2(1,'11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
+    Fecha2(2,'11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
+    Fecha2(3,'11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
+    Fecha2(4,'11/11/11', "11:11", "Real madrid", "vs", "U catolica"),
   ];
 
   return (
@@ -147,19 +147,19 @@ export default function App() {
                 <Grid className="grisCuadro">
                 <h2>Proximos partidos Senior</h2>
                   <TableContainer component={Paper}>
-                    <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                    <Table sx={{ minWidth: 350 }} aria-label="simple table">
                     <TableHead>
                       <TableRow>
                         <TableCell>Fecha</TableCell>
                         <TableCell>Hora</TableCell>
                         <TableCell>Equipo local</TableCell>
-                        <TableCell></TableCell>
+                        <TableCell></TableCell> 
                         <TableCell>Equipo visita</TableCell>
                       </TableRow>
                     </TableHead>
                       <TableBody>
                       {fechaSenior.map((row) => (
-                        <TableRow>
+                        <TableRow key={row.id}>
                           <TableCell>{row.fechas}</TableCell>
                           <TableCell>{row.horas}</TableCell>
                           <TableCell>{row.equipo1}</TableCell>
@@ -200,7 +200,7 @@ export default function App() {
                 <Grid className="grisCuadro">
                 <h2>Proximos partidos Super Senior</h2>
                   <TableContainer component={Paper}>
-                    <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                    <Table sx={{ minWidth: 350 }} aria-label="simple table">
                     <TableHead>
                       <TableRow>
                         <TableCell>Fechas</TableCell>
@@ -212,7 +212,7 @@ export default function App() {
                     </TableHead>
                       <TableBody>
                       {fechaSuperSenior.map((row) => (
-                        <TableRow >
+                        <TableRow key={row.id}>
                           <TableCell>{row.fechas}</TableCell>
                           <TableCell>{row.horas}</TableCell>
                           <TableCell>{row.equipo1}</TableCell>
