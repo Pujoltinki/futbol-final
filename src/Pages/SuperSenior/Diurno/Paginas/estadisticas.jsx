@@ -11,6 +11,7 @@ import GoleadoresSuperSenior                                          from '../E
 import JuegoLimpioSuperSenior                                         from '../Estadisticas/juegoLimpio.jsx'
 import JugadoresExpulsadosSuperSenior                                 from '../Estadisticas/jugadorExpulsado.jsx'
 import VallaSuperSenior                                               from '../Estadisticas/vallaMenosBatida.jsx'
+import Convocatoria                                                   from '../Estadisticas/convocatoria.jsx'
 
 
 export default function LabTabs() {
@@ -29,14 +30,16 @@ export default function LabTabs() {
             <Tab label="Goleadores"           value="2" />
             <Tab label="Juego limpio"         value="3" />
             <Tab label="Jugadores expulsados" value="4" />
-            <Tab label="Valla menos batida"   value="5" />
+            <Tab label="Convocatoria"         value="5" />
+            {/* <Tab label="Valla menos batida"   value="6" /> */}
           </TabList>
         </Box>
         <TabPanel value="1">   <PosicionesSuperSenior          /></TabPanel>
         <TabPanel value="2">   <GoleadoresSuperSenior          /></TabPanel>
         <TabPanel value="3">   <JuegoLimpioSuperSenior         /></TabPanel>
         <TabPanel value="4">   <JugadoresExpulsadosSuperSenior /></TabPanel>
-        <TabPanel value="5">   <VallaSuperSenior               /></TabPanel>
+        <TabPanel value="5">   <Convocatoria                   /></TabPanel>
+        {/* <TabPanel value="6">   <VallaSenior               /></TabPanel> */}
       </TabContext>
     </Box>
   );
